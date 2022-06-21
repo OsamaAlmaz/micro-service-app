@@ -1,0 +1,83 @@
+{
+  "checks": [
+    {
+      "documentation": "https://numerator.atlassian.net/wiki/spaces/TS/pages/333597962/On+Call+Alert+FAQ",
+      "name": "crawler_status",
+      "priority": "high",
+      "reason": "Did not find crawl statistics for latest crawl. (>= 2022-04-12 22:00:00) (customer: bestbuy)  (id: coreblue_queue)",
+      "status": false
+    },
+    {
+      "documentation": "https://numerator.atlassian.net/wiki/spaces/TS/pages/333597962/On+Call+Alert+FAQ",
+      "name": "crawler_price_status",
+      "priority": "high",
+      "reason": "Did not find new_price statistics for latest crawl. (>= 2022-04-12 22:00:00) (customer: bestbuy)  (id: coreblue_queue)",
+      "status": false
+    },
+    {
+      "checks": [],
+      "documentation": "https://numerator.atlassian.net/wiki/spaces/TS/pages/333597962/On+Call+Alert+FAQ",
+      "name": "crawlers_threshold_check",
+      "priority": "high",
+      "status": true
+    },
+    {
+      "documentation": "https://numerator.atlassian.net/wiki/spaces/TS/pages/333597962/On+Call+Alert+FAQ",
+      "name": "mobile_live_api_check",
+      "priority": "high",
+      "reason": "Not a mobile api customer.",
+      "status": true
+    },
+    {
+      "documentation": "https://numerator.atlassian.net/wiki/spaces/TS/pages/333597962/On+Call+Alert+FAQ",
+      "name": "html_archiving_check",
+      "priority": "low",
+      "reason": "Customer is not paying for HTML archiving.",
+      "status": true
+    },
+    {
+      "documentation": "https://numerator.atlassian.net/wiki/spaces/TS/pages/333597962/On+Call+Alert+FAQ",
+      "name": "report_check",
+      "priority": "low",
+      "reason": "Report was created within 1 day, 1:30:00.",
+      "status": true
+    },
+    {
+      "documentation": "https://numerator.atlassian.net/wiki/spaces/TS/pages/333597962/On+Call+Alert+FAQ",
+      "name": "rollup_status",
+      "priority": "low",
+      "reason": "valid rollup found",
+      "status": true
+    },
+    {
+      "documentation": "https://numerator.atlassian.net/wiki/spaces/TS/pages/333597962/On+Call+Alert+FAQ",
+      "name": "rollup_performance_status",
+      "priority": "low",
+      "reason": "Took less than 5 seconds, took 0.26 seconds",
+      "status": true
+    },
+    {
+      "documentation": "https://numerator.atlassian.net/wiki/spaces/TS/pages/333597962/On+Call+Alert+FAQ",
+      "name": "redshift_dump_status",
+      "priority": "low",
+      "reason": "Module 'redshift_dump' not in Customer Modules.",
+      "status": true
+    },
+    {
+      "documentation": "https://numerator.atlassian.net/wiki/spaces/TS/pages/333597962/On+Call+Alert+FAQ",
+      "name": "customer_portal_url_check",
+      "priority": "high",
+      "reason": "The string \"login\" was found in the returned content.",
+      "status": true
+    },
+    {
+      "documentation": "https://numerator.atlassian.net/wiki/spaces/TS/pages/333597962/On+Call+Alert+FAQ",
+      "name": "customer_cloudsearch_status",
+      "priority": "low",
+      "reason": "cloudsearch is not enabled for this customer",
+      "status": true
+    }
+  ],
+  "name": "bestbuy",
+  "status": false
+}
